@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\CRUD_MySQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55FBB398-5686-4A29-8802-B762B5A25EFE}|CRUD_MySQL\\CRUD_MySQL.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\crud_mysql_api\\crud_mysql\\crud_mysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FBB398-5686-4A29-8802-B762B5A25EFE}|CRUD_MySQL\\CRUD_MySQL.csproj|solutionrelative:crud_mysql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FBB398-5686-4A29-8802-B762B5A25EFE}|CRUD_MySQL\\CRUD_MySQL.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\crud_mysql_api\\crud_mysql\\crud_mysql\\crud_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FBB398-5686-4A29-8802-B762B5A25EFE}|CRUD_MySQL\\CRUD_MySQL.csproj|solutionrelative:crud_mysql\\crud_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CRUD_class.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\CRUD_MySQL\\CRUD_MySQL\\CRUD_class.cs",
+              "RelativeDocumentMoniker": "CRUD_MySQL\\CRUD_class.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\CRUD_MySQL\\CRUD_MySQL\\CRUD_class.cs",
+              "RelativeToolTip": "CRUD_MySQL\\CRUD_class.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:30:55.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\CRUD_MySQL\\CRUD_MySQL\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD_MySQL\\Program.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\CRUD_MySQL\\CRUD_MySQL\\Program.cs",
+              "RelativeToolTip": "CRUD_MySQL\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:24:14.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
