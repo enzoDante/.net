@@ -1,0 +1,6 @@
+@toDo_aprendendoAPI_HostAddress = http://localhost:5029
+
+GET {{toDo_aprendendoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
