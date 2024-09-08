@@ -13,24 +13,24 @@ namespace API_usando_CRUD.Controllers
         public UsuariosController()
         {
             // Substitua sua string de conexão
-            string connectionString = "server=localhost;database=nome_do_banco;user=root;password=sua_senha";
-            _crud = new CRUD_class("localhost", "geral", "root", "admin");
+            //string connectionString = "server=localhost;database=nome_do_banco;user=root;password=sua_senha";
+            _crud = new CRUD_class("localhost", "geral", "root", "");
         }
         // GET: api/usuarios
         [HttpGet]
-        public IActionResult GetUsuarios()
+        public IActionResult GetUsuarios([FromQuery] UsuarioDto usuario)
         {
-            string query = "SELECT * FROM usuarios";
-            List<Dictionary<string, object>> result = _crud.ExecuteSelect(query);
+            string query = $"SELECT * FROM {usuario.Tabela}";
+            List<Dictionary<string, object>> result = _crud.Select(query);
             return Ok(result);
         }
 
         // GET: api/usuarios/{id}
         [HttpGet("{id}")]
-        public IActionResult GetUsuario(int id)
+        public IActionResult GetUsuario(int id, [FromQuery] UsuarioDto usuario)
         {
-            string query = $"SELECT * FROM usuarios WHERE id = {id}";
-            var result = _crud.ExecuteSelect(query);
+            string query = $"SELECT * FROM {usuario.Tabela} WHERE {usuario.Colum} = {id}";
+            var result = _crud.Select(query);
             if (result.Count == 0)
             {
                 return NotFound();
@@ -42,36 +42,46 @@ namespace API_usando_CRUD.Controllers
         [HttpPost]
         public IActionResult CreateUsuario([FromBody] UsuarioDto usuario)
         {
-            List<string> columns = new List<string> { "nome", "email" };
-            List<object> values = new List<object> { usuario.Nome, usuario.Email };
-            _crud.Create("usuarios", columns, values);
+            //List<string> columns = new List<string> { "nome", "email" };
+            //List<object> values = new List<object> { usuario.Nome, usuario.Email };
+            _crud.Create(usuario.Tabela, usuario.Columns, usuario.Values);
             return Ok("Usuário criado com sucesso.");
         }
 
         // PUT: api/usuarios/{id}
-        [HttpPut("{id}")]
-        public IActionResult UpdateUsuario(int id, [FromBody] UsuarioDto usuario)
+        [HttpPut]
+        public IActionResult UpdateUsuario([FromBody] UsuarioDto usuario)
         {
-            List<string> columns = new List<string> { "nome", "email" };
-            List<object> values = new List<object> { usuario.Nome, usuario.Email };
-            _crud.Update("usuarios", columns, values, "id", id);
+            // Verifica se o objeto recebido é válido
+            if (usuario == null || string.IsNullOrEmpty(usuario.Tabela) || string.IsNullOrEmpty(usuario.Colum))
+            {
+                return BadRequest("Dados inválidos.");
+            }
+            //List<string> columns = new List<string> { "nome", "email" };
+            //List<object> values = new List<object> { usuario.Nome, usuario.Email };
+            _crud.Update(usuario.Tabela, usuario.Columns, usuario.Values, usuario.Colum, usuario.Id);
             return Ok("Usuário atualizado com sucesso.");
         }
 
         // DELETE: api/usuarios/{id}
         [HttpDelete("{id}")]
-        public IActionResult DeleteUsuario(int id)
+        public IActionResult DeleteUsuario(int id, [FromQuery] UsuarioDto usuario)
         {
-            string query = $"DELETE FROM usuarios WHERE id = {id}";
-            _crud.Delete(query);
+            //string query = $"DELETE FROM usuarios WHERE id = {id}";
+            _crud.Delete(usuario.Tabela, usuario.Colum, id); //usuario.value id
             return Ok("Usuário deletado com sucesso.");
         }
 
     }
     // DTO (Data Transfer Object) para receber o usuário
+    //criar um DTO para cada rota caso seja necessário (rotas que precisam de outros valores para n ficar confuso)
     public class UsuarioDto
     {
-        public string Nome { get; set; }
-        public string Email { get; set; }
+        public object? Id { get; set; } //? declara o item como anulável nullable
+        public string? Tabela { get; set; }
+        public List<string>? Columns { get; set; }
+        public List<object>? Values { get; set; }
+        public string? Colum { get; set; }
+        public object? Value { get; set; }
     }
 }

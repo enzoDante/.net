@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\",
+  "WorkspaceRootPath": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|d:\\codigo-vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|d:\\codigo-vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|d:\\codigo-vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|d:\\codigo-vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|d:\\codigo-vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\todo_aprendendoapi\\todo_aprendendoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F555E55A-2730-4E8F-9733-D0FFA0D0F627}|toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj|solutionrelative:todo_aprendendoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,64 +34,68 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TodoItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
               "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
               "RelativeToolTip": "toDo_aprendendoAPI\\Models\\TodoItemDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T00:20:35.4Z"
+              "WhenOpened": "2024-09-08T00:20:35.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TodoItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
               "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
               "RelativeToolTip": "toDo_aprendendoAPI\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T23:52:33.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Program.cs",
-              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Program.cs",
-              "RelativeToolTip": "toDo_aprendendoAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T23:15:07.909Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoContext.cs",
-              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Models\\TodoContext.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoContext.cs",
-              "RelativeToolTip": "toDo_aprendendoAPI\\Models\\TodoContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Program.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Program.cs",
+              "RelativeToolTip": "toDo_aprendendoAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T23:43:15.42Z"
+              "WhenOpened": "2024-09-07T23:15:07.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Models\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItem.cs",
-              "RelativeToolTip": "toDo_aprendendoAPI\\Models\\TodoItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoContext.cs",
+              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Models\\TodoContext.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoContext.cs",
+              "RelativeToolTip": "toDo_aprendendoAPI\\Models\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T23:39:48.269Z"
+              "WhenOpened": "2024-09-07T23:43:15.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "toDo_aprendendoAPI\\Models\\TodoItem.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\Models\\TodoItem.cs",
+              "RelativeToolTip": "toDo_aprendendoAPI\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T23:39:48.269Z",
+              "EditorCaption": ""
             }
           ]
         }

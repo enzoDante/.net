@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj": {}
+    "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj": {
+    "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj",
+        "projectUniqueName": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj",
         "projectName": "toDo_aprendendoAPI",
-        "projectPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj",
-        "packagesPath": "C:\\Users\\Souls Dante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\obj\\",
+        "projectPath": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\toDo_aprendendoAPI.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\codigo-vsCode\\.net\\toDo_aprendendoAPI\\toDo_aprendendoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Souls Dante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.7.3, )"
             }
           },
           "imports": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
