@@ -14,10 +14,10 @@ namespace API_usando_CRUD.Controllers
         {
             // Substitua sua string de conexão
             //string connectionString = "server=localhost;database=nome_do_banco;user=root;password=sua_senha";
-            _crud = new CRUD_class("localhost", "geral", "root", "");
+            _crud = new CRUD_class("localhost", "geral", "root", "admin");
         }
         // GET: api/usuarios
-        [HttpGet]
+        [HttpGet("SecGeral")]
         public IActionResult GetUsuarios([FromQuery] UsuarioDto usuario)
         {
             string query = $"SELECT * FROM {usuario.Tabela}";
@@ -26,7 +26,7 @@ namespace API_usando_CRUD.Controllers
         }
 
         // GET: api/usuarios/{id}
-        [HttpGet("{id}")]
+        [HttpGet("SecsGeral/{id}")]
         public IActionResult GetUsuario(int id, [FromQuery] UsuarioDto usuario)
         {
             string query = $"SELECT * FROM {usuario.Tabela} WHERE {usuario.Colum} = {id}";
@@ -39,7 +39,7 @@ namespace API_usando_CRUD.Controllers
         }
 
         // POST: api/usuarios
-        [HttpPost]
+        [HttpPost("InGeral")]
         public IActionResult CreateUsuario([FromBody] UsuarioDto usuario)
         {
             //List<string> columns = new List<string> { "nome", "email" };
@@ -49,7 +49,7 @@ namespace API_usando_CRUD.Controllers
         }
 
         // PUT: api/usuarios/{id}
-        [HttpPut]
+        [HttpPut("UpGeral")]
         public IActionResult UpdateUsuario([FromBody] UsuarioDto usuario)
         {
             // Verifica se o objeto recebido é válido
@@ -64,7 +64,7 @@ namespace API_usando_CRUD.Controllers
         }
 
         // DELETE: api/usuarios/{id}
-        [HttpDelete("{id}")]
+        [HttpDelete("DelGeral/{id}")]
         public IActionResult DeleteUsuario(int id, [FromQuery] UsuarioDto usuario)
         {
             //string query = $"DELETE FROM usuarios WHERE id = {id}";
