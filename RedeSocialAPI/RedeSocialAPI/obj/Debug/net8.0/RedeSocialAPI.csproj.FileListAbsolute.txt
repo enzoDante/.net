@@ -49,3 +49,4 @@ C:\Users\Souls Dante\Documents\vsCode\.net\RedeSocialAPI\RedeSocialAPI\obj\Debug
 C:\Users\Souls Dante\Documents\vsCode\.net\RedeSocialAPI\RedeSocialAPI\obj\Debug\net8.0\RedeSocialAPI.pdb
 C:\Users\Souls Dante\Documents\vsCode\.net\RedeSocialAPI\RedeSocialAPI\obj\Debug\net8.0\RedeSocialAPI.genruntimeconfig.cache
 C:\Users\Souls Dante\Documents\vsCode\.net\RedeSocialAPI\RedeSocialAPI\obj\Debug\net8.0\ref\RedeSocialAPI.dll
+C:\Users\Souls Dante\Documents\vsCode\.net\RedeSocialAPI\RedeSocialAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll

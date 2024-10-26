@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\controllers\\userlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\controllers\\userlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\redesocialapi\\redesocialapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1352E85F-D105-4847-A144-3194D05FB574}|RedeSocialAPI\\RedeSocialAPI.csproj|solutionrelative:redesocialapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "RedeSocialAPI\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Models\\LoginModel.cs",
+              "RelativeToolTip": "RedeSocialAPI\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:35:03.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLogController.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Controllers\\UserLogController.cs",
+              "RelativeDocumentMoniker": "RedeSocialAPI\\Controllers\\UserLogController.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Controllers\\UserLogController.cs",
+              "RelativeToolTip": "RedeSocialAPI\\Controllers\\UserLogController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwB8AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:23:37.845Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,25 +70,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "RedeSocialAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\appsettings.json",
-              "RelativeToolTip": "RedeSocialAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T15:56:47.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "RedeSocialAPI\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\RedeSocialAPI\\RedeSocialAPI\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "RedeSocialAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAgwFoAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T15:51:06.767Z",
               "EditorCaption": ""
