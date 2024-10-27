@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "API_usando_CRUD\\Controllers\\UsuariosController.cs",
               "ToolTip": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "API_usando_CRUD\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:15:15.272Z",
               "EditorCaption": ""
@@ -43,8 +47,7 @@
               "RelativeToolTip": "API_usando_CRUD\\CRUD_class.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:03:52.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T17:03:52.386Z"
             }
           ]
         }
