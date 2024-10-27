@@ -2043,19 +2043,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Souls Dante\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\API_usando_CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\API_usando_CRUD.csproj",
       "projectName": "API_usando_CRUD",
-      "projectPath": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\API_usando_CRUD.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\obj\\",
+      "projectPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\API_usando_CRUD.csproj",
+      "packagesPath": "C:\\Users\\Souls Dante\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Souls Dante\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2115,7 +2115,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
