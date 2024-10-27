@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\APIRedeSo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\apiredeso\\apiredeso\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\apiredeso\\apiredeso\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\APIRedeSo\\APIRedeSo\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\APIRedeSo\\APIRedeSo\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "APIRedeSo\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAuwIIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:20:26.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:58:50.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
