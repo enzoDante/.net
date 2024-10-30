@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\controllers\\postagemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\postagemcomfotosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\postagemcomfotosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\postagemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\postagemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\postagem_usuario_relacionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\postagem_usuario_relacionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\postagemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\postagemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\models\\fotos_postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\models\\fotos_postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|d:\\codigo-vscode\\.net\\apiredeso\\apiredeso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1760097C-675D-4AFE-B1F6-47A2B20D76B4}|APIRedeSo\\APIRedeSo.csproj|solutionrelative:apiredeso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostagemComFotosDTO.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemComFotosDTO.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Models\\PostagemComFotosDTO.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemComFotosDTO.cs",
+              "RelativeToolTip": "APIRedeSo\\Models\\PostagemComFotosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:46:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostagemUpdateDTO.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemUpdateDTO.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Models\\PostagemUpdateDTO.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemUpdateDTO.cs",
+              "RelativeToolTip": "APIRedeSo\\Models\\PostagemUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:33:58.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PostagemCreateDTO.cs",
-              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemCreateDTO.cs",
-              "RelativeDocumentMoniker": "APIRedeSo\\Models\\PostagemCreateDTO.cs",
-              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\PostagemCreateDTO.cs",
-              "RelativeToolTip": "APIRedeSo\\Models\\PostagemCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "APIRedeSo\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T00:34:20.343Z",
+              "WhenOpened": "2024-10-29T23:17:01.336Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Program.cs",
+              "RelativeDocumentMoniker": "APIRedeSo\\Program.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Program.cs",
+              "RelativeToolTip": "APIRedeSo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:30:13.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -57,48 +96,9 @@
               "RelativeDocumentMoniker": "APIRedeSo\\Controllers\\PostagemsController.cs",
               "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Controllers\\PostagemsController.cs",
               "RelativeToolTip": "APIRedeSo\\Controllers\\PostagemsController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEEAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T23:02:22.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Postagem_usuario_relacionado.cs",
-              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Postagem_usuario_relacionado.cs",
-              "RelativeDocumentMoniker": "APIRedeSo\\Models\\Postagem_usuario_relacionado.cs",
-              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Postagem_usuario_relacionado.cs",
-              "RelativeToolTip": "APIRedeSo\\Models\\Postagem_usuario_relacionado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T22:53:42.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Fotos_postagem.cs",
-              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Fotos_postagem.cs",
-              "RelativeDocumentMoniker": "APIRedeSo\\Models\\Fotos_postagem.cs",
-              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Fotos_postagem.cs",
-              "RelativeToolTip": "APIRedeSo\\Models\\Fotos_postagem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T22:53:07.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Postagem.cs",
-              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Postagem.cs",
-              "RelativeDocumentMoniker": "APIRedeSo\\Models\\Postagem.cs",
-              "ToolTip": "D:\\codigo-vsCode\\.net\\APIRedeSo\\APIRedeSo\\Models\\Postagem.cs",
-              "RelativeToolTip": "APIRedeSo\\Models\\Postagem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T22:52:35.066Z",
               "EditorCaption": ""
             }
           ]

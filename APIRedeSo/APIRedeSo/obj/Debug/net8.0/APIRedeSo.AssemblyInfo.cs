@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIRedeSo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a698c167c59ef967aa50c3543606bcbb276a65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6d1281692552b1fa6fb4e387ceb0bac8d900ef9")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIRedeSo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIRedeSo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

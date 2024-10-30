@@ -22,19 +22,58 @@ namespace APIRedeSo.Controllers
 
         // GET: api/Postagems
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Postagem>>> GetPostagens()
+        public async Task<ActionResult<IEnumerable<PostagemComFotosDTO>>> GetPostagens()
         {
-            return await _context.Postagens.ToListAsync();
+            var postagens = await _context.Postagem
+                .Include(p => p.Fotos)
+                .Include(p => p.Colaboradores)
+                .Select(p => new PostagemComFotosDTO
+                {
+                    Id = p.Id,
+                    Usuario_id = p.Usuario_id,
+                    Titulo = p.Titulo,
+                    Descricao = p.Descricao,
+                    Data_criacao = p.Data_criacao,
+                    Curtidas = p.Curtidas,
+                    Fotos = p.Fotos.Select(f => new FotosDTO
+                    {
+                        Url_foto = f.Url_foto
+                    }).ToList(),
+                    Colaboradores = p.Colaboradores.Select(c => new ColaboradoresDTO
+                    {
+                        Usuario_id = c.Usuario_id
+                    }).ToList()
+                })
+                .ToListAsync();
+
+            return Ok(postagens);
         }
 
         // GET: api/Postagems/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Postagem>> GetPostagem(int id)
+        public async Task<ActionResult<PostagemComFotosDTO>> GetPostagem(int id)
         {
-            var postagem = await _context.Postagens
+            var postagem = await _context.Postagem
                 .Include(p => p.Fotos)
                 .Include(p => p.Colaboradores)
-                .FirstOrDefaultAsync(p => p.Id == id);
+                .Select(p => new PostagemComFotosDTO
+                {
+                    Id = p.Id,
+                    Usuario_id = p.Usuario_id,
+                    Titulo = p.Titulo,
+                    Descricao = p.Descricao,
+                    Data_criacao = p.Data_criacao,
+                    Curtidas = p.Curtidas,
+                    Fotos = p.Fotos.Select(f => new FotosDTO
+                    {
+                        Url_foto = f.Url_foto
+                    }).ToList(),
+                    Colaboradores = p.Colaboradores.Select(c => new ColaboradoresDTO
+                    {
+                        Usuario_id = c.Usuario_id
+                    }).ToList()
+
+                }).FirstOrDefaultAsync(p => p.Id == id);
 
             if (postagem == null)
             {
@@ -47,54 +86,141 @@ namespace APIRedeSo.Controllers
         // PUT: api/Postagems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdatePostagem(int id, Postagem postagemAtualizada)
+        public async Task<IActionResult> UpdatePostagem(int id, PostagemUpdateDTO updateDto)
         {
-            var postagem = await _context.Postagens.FindAsync(id);
+            var postagem = await _context.Postagem.FindAsync(id);
+            //baseado no id da postagem, buscar também todos os elementos da tabela de fotos daquela postagem (postagem_id)
             if (postagem == null)
             {
                 return NotFound();
             }
+            //postagem.Id = id
+            postagem.Titulo = updateDto.Titulo;
+            postagem.Descricao = updateDto.Descricao;
+            // Atualiza as fotos
+            // Você pode querer fazer uma lógica mais complexa para gerenciar a atualização das fotos
+            // Aqui, por exemplo, vamos limpar as fotos existentes e adicionar as novas
+            var fotosExistentes = await _context.Fotos_postagem.Where(f => f.Postagem_id == id).ToListAsync();
+            _context.Fotos_postagem.RemoveRange(fotosExistentes); // Remove as fotos antigas
 
-            postagem.Titulo = postagemAtualizada.Titulo;
-            postagem.Descricao = postagemAtualizada.Descricao;
+            if (updateDto.Fotos != null && updateDto.Fotos.Any())
+            {
+                foreach (var fotoDto in updateDto.Fotos)
+                {
+                    if(fotoDto.Url_foto != "")
+                    {
+                        var novaFoto = new Fotos_postagem
+                        {
+                            Postagem_id = id,
+                            Url_foto = fotoDto.Url_foto
+                        };
+                        _context.Fotos_postagem.Add(novaFoto);
+                    }
+                }
+            }
+            //atualizar colaboradores
+            var colabExistentes = await _context.Postagem_usuario_relacionado.Where(f => f.Postagem_id == id).ToListAsync();
+            _context.Postagem_usuario_relacionado.RemoveRange(colabExistentes);//remove os colaboradores
+            if(updateDto.Colaboradores != null && updateDto.Colaboradores.Any())
+            {
+                foreach (var colabDto in updateDto.Colaboradores)
+                {
+                    if(colabDto.Usuario_id != 0)
+                    {
+                        var novosC = new Postagem_usuario_relacionado
+                        {
+                            Postagem_id = id,
+                            Usuario_id = colabDto.Usuario_id
+                        };
+                        _context.Postagem_usuario_relacionado.Add(novosC);
+                    }
+                }
+            }
+
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return NoContent(); // Retorna 204 No Content após a atualização
         }
 
         // POST: api/Postagems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Postagem>> CreatePostagem(PostagemCreateDTO postagemDTO)
+        public async Task<ActionResult<Postagem>> CreatePostagem(PostagemComFotosDTO postagemDto)
         {
-            postagemDTO.Data_criacao = DateTime.Now;
+            postagemDto.Data_criacao = DateTime.Now;
             var postagem = new Postagem
             {
-                Usuario_id = postagemDTO.Usuario_id,
-                Titulo = postagemDTO.Titulo,
-                Descricao = postagemDTO.Descricao,
-                Data_criacao = postagemDTO.Data_criacao,
-                Curtidas = postagemDTO.Curtidas
+                Usuario_id = postagemDto.Usuario_id,
+                Titulo = postagemDto.Titulo,
+                Descricao = postagemDto.Descricao,
+                Data_criacao = postagemDto.Data_criacao,
+                Curtidas = postagemDto.Curtidas
             };
-            //postagem.Data_criacao = DateTime.Now;
-            //postagem.Curtidas = 0;
-            _context.Postagens.Add(postagem);
+
+            // Adiciona a postagem ao contexto e salva
+            _context.Postagem.Add(postagem);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetPostagem), new { id = postagem.Id }, postagem);
+            // Captura o ID da nova postagem
+            int novoPostagemId = postagem.Id;
+
+            // Se houver fotos, adiciona-as com o ID da nova postagem
+            if (postagemDto.Fotos != null && postagemDto.Fotos.Count > 0)
+            {
+                foreach (var fotoDto in postagemDto.Fotos)
+                {
+                    if(fotoDto.Url_foto != "")
+                    {
+                        var foto = new Fotos_postagem
+                        {
+                            Postagem_id = novoPostagemId,
+                            Url_foto = fotoDto.Url_foto
+                        };
+                        _context.Fotos_postagem.Add(foto);
+                    }
+                }
+                await _context.SaveChangesAsync();
+                
+            }
+            if(postagemDto.Colaboradores != null && postagemDto.Colaboradores.Count > 0)
+            {
+                foreach (var colaborador in postagemDto.Colaboradores)
+                {
+                    if(colaborador.Usuario_id != 0)
+                    {
+                        // Verifica se o usuário existe
+                        var usuarioExiste = await _context.Usuario.AnyAsync(u => u.Id == colaborador.Usuario_id);
+                        if (!usuarioExiste)
+                        {
+                            return BadRequest($"O usuário com ID {colaborador.Usuario_id} não existe.");
+                        }
+
+                        var colab = new Postagem_usuario_relacionado
+                        {
+                            Postagem_id=novoPostagemId,
+                            Usuario_id = colaborador.Usuario_id
+                        };
+                        _context.Postagem_usuario_relacionado.Add(colab);
+                    }
+                }
+                await _context.SaveChangesAsync();
+            }
+
+            // Retorna a postagem com o ID gerado
+            return CreatedAtAction(nameof(GetPostagem), new { id = novoPostagemId }, postagem);
         }
 
         // DELETE: api/Postagems/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePostagem(int id)
         {
-            var postagem = await _context.Postagens.FindAsync(id);
+            var postagem = await _context.Postagem.FindAsync(id);
             if (postagem == null)
             {
                 return NotFound();
             }
 
-            _context.Postagens.Remove(postagem);
+            _context.Postagem.Remove(postagem);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -102,47 +228,7 @@ namespace APIRedeSo.Controllers
 
         private bool PostagemExists(int id)
         {
-            return _context.Postagens.Any(e => e.Id == id);
-        }
-
-
-
-        [HttpPost("{postagemId}/fotos")]
-        public async Task<IActionResult> AddFoto(int postagemId, List<Fotos_postagem> foto)
-        {
-            var postagem = await _context.Postagens.FindAsync(postagemId);
-            if (postagem == null)
-            {
-                return NotFound();
-            }
-            //associa o ID da postagem a cada foto e adiciona ao banco
-            foreach (var item in foto)
-            {
-                item.Postagem_id = postagemId;
-                _context.Fotos.Add(item);
-                
-            }
-            await _context.SaveChangesAsync();
-
-            return Ok(foto);
-        }
-        [HttpPost("{postagemId}/colaboradores")]
-        public async Task<IActionResult> AddColaborador(int postagemId, List<Postagem_usuario_relacionado> colaborador)
-        {
-            var postagem = await _context.Postagens.FindAsync(postagemId);
-            if (postagem == null)
-            {
-                return Unauthorized("Apenas o dono da postagem pode adicionar colaboradores.");
-            }
-            foreach (var item in colaborador)
-            {
-                item.Postagem_id = postagemId;
-                _context.Colaboradores.Add(item);
-                
-            }
-            await _context.SaveChangesAsync();
-
-            return Ok(colaborador);
+            return _context.Postagem.Any(e => e.Id == id);
         }
     }
 }

@@ -10,6 +10,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         new MySqlServerVersion(new Version(8, 0, 23)) // Ajuste para a versão do seu MySQL
     )
 );
+builder.Services.AddControllers().AddJsonOptions(x =>
+    x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve);
+
 // Adicione os serviços restantes, como controle de API, autenticação, etc.
 builder.Services.AddControllers();
 
