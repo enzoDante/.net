@@ -1,17 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\",
+  "WorkspaceRootPath": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\crud_mysql_api\\api_usando_crud\\api_usando_crud\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|d:\\codigo-vscode\\.net\\crud_mysql_api\\api_usando_crud\\api_usando_crud\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|solutionrelative:api_usando_crud\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\crud_mysql_api\\api_usando_crud\\api_usando_crud\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|solutionrelative:api_usando_crud\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|c:\\users\\souls dante\\documents\\vscode\\.net\\crud_mysql_api\\api_usando_crud\\api_usando_crud\\crud_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|d:\\codigo-vscode\\.net\\crud_mysql_api\\api_usando_crud\\api_usando_crud\\crud_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{278BB5DB-D194-420E-B2B3-34C3A310B7DB}|API_usando_CRUD\\API_usando_CRUD.csproj|solutionrelative:api_usando_crud\\crud_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,42 +21,34 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "API_usando_CRUD\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "API_usando_CRUD\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T14:47:59.578Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "API_usando_CRUD\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "API_usando_CRUD\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwEIAAAAeAAAA",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:15:15.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CRUD_class.cs",
-              "DocumentMoniker": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\CRUD_class.cs",
+              "DocumentMoniker": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\CRUD_class.cs",
               "RelativeDocumentMoniker": "API_usando_CRUD\\CRUD_class.cs",
-              "ToolTip": "C:\\Users\\Souls Dante\\Documents\\vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\CRUD_class.cs",
+              "ToolTip": "D:\\codigo-vsCode\\.net\\CRUD_MySQL_API\\API_usando_CRUD\\API_usando_CRUD\\CRUD_class.cs",
               "RelativeToolTip": "API_usando_CRUD\\CRUD_class.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:03:52.386Z"
+              "WhenOpened": "2024-09-08T17:03:52.386Z",
+              "EditorCaption": ""
             }
           ]
         }

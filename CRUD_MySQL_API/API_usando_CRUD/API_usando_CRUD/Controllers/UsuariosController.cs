@@ -14,10 +14,11 @@ namespace API_usando_CRUD.Controllers
         {
             // Substitua sua string de conexão
             //string connectionString = "server=localhost;database=nome_do_banco;user=root;password=sua_senha";
-            _crud = new CRUD_class("localhost", "geral", "root", "admin");
+            _crud = new CRUD_class("localhost", "geral", "root", "");
         }
+        //sobre o select de banco de dados, pode ser tanto GET quanto POST, para enviar vários parametros, POST pode ser interessante!
         // GET: api/usuarios
-        [HttpGet("SecGeral")]
+        [HttpGet("SelGereal")]
         public IActionResult GetUsuarios([FromQuery] UsuarioDto usuario)
         {
             string query = $"SELECT * FROM {usuario.Tabela}";
@@ -26,7 +27,7 @@ namespace API_usando_CRUD.Controllers
         }
 
         // GET: api/usuarios/{id}
-        [HttpGet("SecsGeral/{id}")]
+        [HttpGet("SelGeral/{id}")]
         public IActionResult GetUsuario(int id, [FromQuery] UsuarioDto usuario)
         {
             string query = $"SELECT * FROM {usuario.Tabela} WHERE {usuario.Colum} = {id}";
