@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TesteDocker_semDB.props" />
+</Project>
