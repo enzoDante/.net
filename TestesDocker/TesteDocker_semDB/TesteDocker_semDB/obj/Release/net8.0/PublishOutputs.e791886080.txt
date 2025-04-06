@@ -1,0 +1,11 @@
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\TesteDocker_semDB.exe
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\TesteDocker_semDB.dll
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\TesteDocker_semDB.deps.json
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\TesteDocker_semDB.runtimeconfig.json
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\TesteDocker_semDB.pdb
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Document\vsCode\.net\TestesDocker\TesteDocker_semDB\TesteDocker_semDB\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

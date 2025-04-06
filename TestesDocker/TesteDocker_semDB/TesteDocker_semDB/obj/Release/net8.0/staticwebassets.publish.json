@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "thkO5Vkp6i7dPve4Ou3PWRGF39bGmBo11x7Shur+G08=",
+  "Source": "TesteDocker_semDB",
+  "BasePath": "_content/TesteDocker_semDB",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

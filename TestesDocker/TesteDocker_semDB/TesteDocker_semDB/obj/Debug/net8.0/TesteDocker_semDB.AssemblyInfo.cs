@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteDocker_semDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e94cb47b555001a7b42c2b169f416c3fff069ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b109e4b9e708ca196b12797d61bbeed5cd6670e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteDocker_semDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteDocker_semDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
